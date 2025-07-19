@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BrandWave</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="imagenes/favicon.png">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="#hero" class="logo">
+        <img src="imagenes/brandwave_logo.png" alt="Logo original" class="logo-default" />
+        <img src="imagenes/logo-brandwave.png" alt="Logo hover" class="logo-hover" />
+      </a>       
+        <div class="namebrand">
+          Brandwave
+        </div>
+
+        <div class="hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#services">Información</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>      
+  </header>
+
+  <section id="hero" class="hero">
+    <div id="particles-js"></div>
+    <div class="hero-content">
+      <h2>Haz crecer tu clínica estética con publicidad que vende</h2>
+      <p>En BrandWave, impulsamos el crecimiento de tu clínica estética con estrategias de marketing digital enfocadas en resultados y bienestar de tu marca. Convierte cada euro en pacientes, no en clics.
+        En BrandWave llenamos la agenda de tu clínica estética con campañas en redes sociales que atraen, convierten y hacen crecer tu negocio de verdad.</p>
+      <p>Porque si tu clínica es buena, el mundo debería saberlo.</p>
+      <button id="scrollToContact" onclick="scrollToContact()">Solicita tu cita</button>
+    </div>
+  </section>  
+
+  <section id="services" class="services">
+    <div class="services-layout">
+      <div class="services-image">
+        <img src="imagenes/tabla.png" alt="Imagen filosofía BrandWave" />
+      </div>
+  
+      <div class="services-text-box">
+        <h2>NUESTRA FILOSOFÍA 🌊</h2>
+        <p>En <strong>BrandWave</strong>, impulsamos a clínicas de medicina estética a destacar y crecer mediante campañas de publicidad en redes sociales diseñadas para generar <strong>resultados reales</strong>.</p>
+  
+        <p>Inspirados por la <strong>fuerza y fluidez de una ola</strong> —representada en nuestro logo—, buscamos crear un impacto potente, visible y sostenido. Nuestros pilares son la <strong>creatividad</strong>, la <strong>innovación</strong> y el <strong>compromiso</strong>, trabajando mano a mano con cada cliente para que se sientan respaldados y acompañados en cada paso hacia el éxito.</p>
+  
+        <p><strong>¿Sientes que tu clínica está lista para dar el siguiente paso?</strong><br />
+        Nos encantaría conocerte y mostrarte cómo podemos ayudarte a <strong>llenar tu agenda</strong> y hacer crecer tu marca.</p>
+  
+        <p>📩 <strong>Escríbenos y comencemos a impulsarte.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="ofrecemos" class="ofrecemos-section">
+    <div class="ofrecemos-layout">
+      
+      <div class="ofrecemos-si">
+        <h2>¿QUÉ OFRECEMOS? 📣</h2>
+        <p><strong>Gestión de Publicidad en Redes Sociales para Clínicas Estéticas</strong></p>
+        <p>En <strong>BrandWave</strong> nos especializamos en una sola cosa: hacer crecer tu clínica estética a través de campañas publicitarias efectivas en redes sociales. Y lo hacemos con excelencia.</p>
+        <p>No somos una agencia más que gestiona anuncios sin rumbo. <strong>Somos tu socio estratégico</strong>: diseñamos campañas con enfoque en resultados reales, pensadas para atraer más pacientes, aumentar tus ingresos y medir cada euro invertido con total transparencia.</p>
+        <p>Si buscas una agencia comprometida con tu crecimiento y con una visión clara de retorno, <strong>somos la elección correcta</strong> 🌊.</p>
+        <h3>NO ofrecemos ningún otro servicio,<br /> excepto gestión de publicidad en redes sociales...</h3>
+        <ul>
+          <br>
+          <b>❌ DISEÑO WEB</b><br>
+          <b>❌ MARKETING POR CORREO ELECTRÓNICO</b><br>
+          <b>❌ SERVICIO DE RELACIONES PÚBLICAS</b>
+        </ul>
+      </div>
+      <div class="ofrecemos-img">
+        <img src="imagenes/ofrecemos-img.png" alt="Imagen acompañante" />
+      </div>
+    </div>
+  </section>
+
+  <section id="confian" class="confian-section">
+  <h2>Compañías que confían en nosotros 🤝</h2>
+  <div class="confian-grid">
+    <div class="logo-item"><img src="imagenes/logo1.png" alt="Compañía 1" /></div>
+    <div class="logo-item"><img src="imagenes/logo2.png" alt="Compañía 2" /></div>
+    <div class="logo-item"><img src="imagenes/logo3.png" alt="Compañía 3" /></div>
+    <div class="logo-item"><img src="imagenes/logo4.png" alt="Compañía 4" /></div>
+    <div class="logo-item"><img src="imagenes/logo5.png" alt="Compañía 5" /></div>
+    <div class="logo-item"><img src="imagenes/logo6.png" alt="Compañía 6" /></div>
+  </div>
+  </section>
+  
+  <!-- Botón scroll-top -->
+  <button id="scrollTopBtn" onclick="scrollToTop()"></button>
+  
+
+  <section id="contact" class="contact">
+    ¿TIENE ALGUNA DUDA?
+    <div class="social-contact">
+      <p>Si tiene alguna pregunta puede ponerse en contacto con nuestro equipo de expertos</p>
+      <div class="social-icons">
+        <a href="https://api.whatsapp.com/send?phone=34609889685&text=%C2%A1Hola!%20%F0%9F%91%8B%0AGracias%20por%20contactar%20con%20BrandWave.%20%F0%9F%9A%80%0ACu%C3%A9ntame%2C%20%C2%BFc%C3%B3mo%20puedo%20ayudarte%20a%20impulsar%20tu%20cl%C3%ADnica%20de%20medicina%20est%C3%A9tica%3F%20%F0%9F%92%BC%E2%9C%A8" target="_blank">
+          <img src="imagenes/whatsapp-icon.svg" alt="WhatsApp" />
+        </a>
+        <a href="https://www.instagram.com/m/brandwave.agency.smma" target="_blank">
+          <img src="imagenes/instagram-icon.svg" alt="Instagram" />
+        </a>  
+        <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&su=Consulta+sobre+publicidad+y+crecimiento&to=cmeseguergarcia@gmail.com&body=%C2%A1Hola!+%F0%9F%98%8A+Me+encantar%C3%ADa+conocer+m%C3%A1s+sobre+c%C3%B3mo+funciona+vuestra+estrategia+para+conseguir+pacientes+y+qu%C3%A9+tipo+de+campa%C3%B1as+podr%C3%ADais+crear+para+mi+cl%C3%ADnica+est%C3%A9tica+%F0%9F%92%86%E2%80%8D%E2%99%80%EF%B8%8F%E2%9C%A8." target="_blank">
+          <img src="imagenes/gmail-icon.svg" alt="Gmail" />
+        </a>
+      </div>
+    </div>
+    <!-- Calendly integrado -->
+    <div class="calendly-contact">
+      <p>Reserva tu cita directamente :</p>
+      <div class="calendly-inline-widget" data-url="https://calendly.com/brandwaveagency" style="min-width:320px;height:700px;"></div>
+    </div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BrandWave. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="imagenes/particles.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
