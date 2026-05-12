@@ -1,137 +1,214 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BrandWave</title>
+  <title>BrandWave | Agencia de Marketing para Clínicas Estéticas</title>
+  <meta name="description" content="En BrandWave llenamos la agenda de tu clínica de medicina estética con campañas rentables de publicidad en redes sociales. Atrae pacientes reales y multiplica tus ingresos." />
+  
+  <!-- Open Graph / Redes Sociales -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://brandwave.es/" />
+  <meta property="og:title" content="BrandWave | Marketing para Clínicas Estéticas" />
+  <meta property="og:description" content="Especialistas en conseguir más pacientes y aumentar los ingresos de tu clínica estética mediante publicidad efectiva en redes sociales." />
+  <meta property="og:image" content="https://brandwave.es/imagenes/brandwave_logo.png" />
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://brandwave.es/" />
+  <meta property="twitter:title" content="BrandWave | Marketing para Clínicas Estéticas" />
+  <meta property="twitter:description" content="Especialistas en conseguir más pacientes y aumentar los ingresos de tu clínica estética mediante publicidad efectiva en redes sociales." />
+  <meta property="twitter:image" content="https://brandwave.es/imagenes/brandwave_logo.png" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "BrandWave",
+    "image": "https://brandwave.es/imagenes/brandwave_logo.png",
+    "description": "Agencia especializada en la gestión de publicidad en redes sociales para clínicas de medicina estética.",
+    "url": "https://brandwave.es/",
+    "telephone": "+34609889685",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ES"
+    },
+    "sameAs": [
+      "https://www.instagram.com/m/brandwave.agency.smma"
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800;900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" type="image/png" href="imagenes/favicon.png">
 </head>
+
 <body>
 
   <header>
     <nav class="navbar">
       <a href="#hero" class="logo">
-        <img src="imagenes/brandwave_logo.png" alt="Logo original" class="logo-default" />
-        <img src="imagenes/logo-brandwave.png" alt="Logo hover" class="logo-hover" />
-      </a>       
-        <div class="namebrand">
-          Brandwave
-        </div>
+        <img src="imagenes/brandwave_logo.webp" alt="Logo original" class="logo-default" />
+        <img src="imagenes/logo-brandwave.webp" alt="Logo hover" class="logo-hover" />
+      </a>
+      <div class="namebrand">
+        Brandwave
+      </div>
 
-        <div class="hamburger" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      
-        <ul class="nav-links" id="navLinks">
-          <li><a href="#hero">Inicio</a></li>
-          <li><a href="#services">Información</a></li>
-          <li><a href="#contact">Contacto</a></li>
-        </ul>
-      </nav>      
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#services">Información</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
   </header>
 
   <section id="hero" class="hero">
     <div id="particles-js"></div>
     <div class="hero-content">
       <h2>Haz crecer tu clínica estética con publicidad que vende</h2>
-      <p>En BrandWave, impulsamos el crecimiento de tu clínica estética con estrategias de marketing digital enfocadas en resultados y bienestar de tu marca. Convierte cada euro en pacientes, no en clics.
-        En BrandWave llenamos la agenda de tu clínica estética con campañas en redes sociales que atraen, convierten y hacen crecer tu negocio de verdad.</p>
-      <p>Porque si tu clínica es buena, el mundo debería saberlo.</p>
+      <p>Llenamos tu agenda con campañas rentables en redes sociales. Convierte cada euro invertido en pacientes reales, no en simples clics. Porque si tu trabajo es excelente, todo el mundo debería saberlo.</p>
       <button id="scrollToContact" onclick="scrollToContact()">Solicita tu cita</button>
     </div>
-  </section>  
+  </section>
 
-  <section id="services" class="services">
+  <section id="services" class="services fade-in">
     <div class="services-layout">
       <div class="services-image">
-        <img src="imagenes/tabla.png" alt="Imagen filosofía BrandWave" />
+        <img src="imagenes/tabla.webp" alt="Imagen filosofía BrandWave" loading="lazy" />
       </div>
-  
+
       <div class="services-text-box">
         <h2>NUESTRA FILOSOFÍA 🌊</h2>
-        <p>En <strong>BrandWave</strong>, impulsamos a clínicas de medicina estética a destacar y crecer mediante campañas de publicidad en redes sociales diseñadas para generar <strong>resultados reales</strong>.</p>
-  
-        <p>Inspirados por la <strong>fuerza y fluidez de una ola</strong> —representada en nuestro logo—, buscamos crear un impacto potente, visible y sostenido. Nuestros pilares son la <strong>creatividad</strong>, la <strong>innovación</strong> y el <strong>compromiso</strong>, trabajando mano a mano con cada cliente para que se sientan respaldados y acompañados en cada paso hacia el éxito.</p>
-  
+        <p>En <strong>BrandWave</strong>, impulsamos a clínicas de medicina estética a destacar y crecer mediante
+          campañas de publicidad en redes sociales diseñadas para generar <strong>resultados reales</strong>.</p>
+
+        <p>Inspirados por la <strong>fuerza y fluidez de una ola</strong> —representada en nuestro logo—, buscamos crear
+          un impacto potente, visible y sostenido. Nuestros pilares son la <strong>creatividad</strong>, la
+          <strong>innovación</strong> y el <strong>compromiso</strong>, trabajando mano a mano con cada cliente para que
+          se sientan respaldados y acompañados en cada paso hacia el éxito.</p>
+
         <p><strong>¿Sientes que tu clínica está lista para dar el siguiente paso?</strong><br />
-        Nos encantaría conocerte y mostrarte cómo podemos ayudarte a <strong>llenar tu agenda</strong> y hacer crecer tu marca.</p>
-  
+          Nos encantaría conocerte y mostrarte cómo podemos ayudarte a <strong>llenar tu agenda</strong> y hacer crecer
+          tu marca.</p>
+
         <p>📩 <strong>Escríbenos y comencemos a impulsarte.</strong></p>
       </div>
     </div>
   </section>
 
-  <section id="ofrecemos" class="ofrecemos-section">
+  <section id="ofrecemos" class="ofrecemos-section fade-in">
     <div class="ofrecemos-layout">
-      
+
       <div class="ofrecemos-si">
         <h2>¿QUÉ OFRECEMOS? 📣</h2>
         <p><strong>Gestión de Publicidad en Redes Sociales para Clínicas Estéticas</strong></p>
-        <p>En <strong>BrandWave</strong> nos especializamos en una sola cosa: hacer crecer tu clínica estética a través de campañas publicitarias efectivas en redes sociales. Y lo hacemos con excelencia.</p>
-        <p>No somos una agencia más que gestiona anuncios sin rumbo. <strong>Somos tu socio estratégico</strong>: diseñamos campañas con enfoque en resultados reales, pensadas para atraer más pacientes, aumentar tus ingresos y medir cada euro invertido con total transparencia.</p>
-        <p>Si buscas una agencia comprometida con tu crecimiento y con una visión clara de retorno, <strong>somos la elección correcta</strong> 🌊.</p>
+        <p>En <strong>BrandWave</strong> nos especializamos en una sola cosa: hacer crecer tu clínica estética a través
+          de campañas publicitarias efectivas en redes sociales. Y lo hacemos con excelencia.</p>
+        <p>No somos una agencia más que gestiona anuncios sin rumbo. <strong>Somos tu socio estratégico</strong>:
+          diseñamos campañas con enfoque en resultados reales, pensadas para atraer más pacientes, aumentar tus ingresos
+          y medir cada euro invertido con total transparencia.</p>
+        <p>Si buscas una agencia comprometida con tu crecimiento y con una visión clara de retorno, <strong>somos la
+            elección correcta</strong> 🌊.</p>
         <h3>NO ofrecemos ningún otro servicio,<br /> excepto gestión de publicidad en redes sociales...</h3>
         <ul>
-          <br>
-          <b>❌ DISEÑO WEB</b><br>
-          <b>❌ MARKETING POR CORREO ELECTRÓNICO</b><br>
-          <b>❌ SERVICIO DE RELACIONES PÚBLICAS</b>
+          <li>❌ DISEÑO WEB</li>
+          <li>❌ MARKETING POR CORREO ELECTRÓNICO</li>
+          <li>❌ SERVICIO DE RELACIONES PÚBLICAS</li>
         </ul>
       </div>
       <div class="ofrecemos-img">
-        <img src="imagenes/ofrecemos-img.png" alt="Imagen acompañante" />
+        <img src="imagenes/ofrecemos-img.webp" alt="Imagen acompañante" loading="lazy" />
       </div>
     </div>
   </section>
 
-  <section id="confian" class="confian-section">
-  <h2>Compañías que confían en nosotros 🤝</h2>
-  <div class="confian-grid">
-    <div class="logo-item"><img src="imagenes/logo1.png" alt="Compañía 1" /></div>
-    <div class="logo-item"><img src="imagenes/logo2.png" alt="Compañía 2" /></div>
-    <div class="logo-item"><img src="imagenes/logo3.png" alt="Compañía 3" /></div>
-    <div class="logo-item"><img src="imagenes/logo4.png" alt="Compañía 4" /></div>
-    <div class="logo-item"><img src="imagenes/logo5.png" alt="Compañía 5" /></div>
-    <div class="logo-item"><img src="imagenes/logo6.png" alt="Compañía 6" /></div>
-  </div>
+  <section id="confian" class="confian-section fade-in">
+    <h2>Compañías que confían en nosotros</h2>
+    <div class="marquee-container">
+      <div class="marquee-content">
+        <!-- Primer set de logos -->
+        <div class="logo-item"><img src="imagenes/logo1.png" alt="Logo de cliente 1" loading="lazy" /></div>
+        <div class="logo-item"><img src="imagenes/logo2.png" alt="Logo de cliente 2" loading="lazy" /></div>
+        <div class="logo-item"><img src="imagenes/logo3.png" alt="Logo de cliente 3" loading="lazy" /></div>
+        <div class="logo-item"><img src="imagenes/logo4.png" alt="Logo de cliente 4" loading="lazy" /></div>
+        <div class="logo-item"><img src="imagenes/logo5.png" alt="Logo de cliente 5" loading="lazy" /></div>
+        <div class="logo-item"><img src="imagenes/logo6.png" alt="Logo de cliente 6" loading="lazy" /></div>
+        <!-- Segundo set de logos duplicado para bucle infinito -->
+        <div class="logo-item"><img src="imagenes/logo1.png" alt="Logo de cliente 1" loading="lazy" /></div>
+        <div class="logo-item"><img src="imagenes/logo2.png" alt="Logo de cliente 2" loading="lazy" /></div>
+        <div class="logo-item"><img src="imagenes/logo3.png" alt="Logo de cliente 3" loading="lazy" /></div>
+        <div class="logo-item"><img src="imagenes/logo4.png" alt="Logo de cliente 4" loading="lazy" /></div>
+        <div class="logo-item"><img src="imagenes/logo5.png" alt="Logo de cliente 5" loading="lazy" /></div>
+        <div class="logo-item"><img src="imagenes/logo6.png" alt="Logo de cliente 6" loading="lazy" /></div>
+      </div>
+    </div>
   </section>
-  
+
   <!-- Botón scroll-top -->
   <button id="scrollTopBtn" onclick="scrollToTop()"></button>
-  
 
-  <section id="contact" class="contact">
+
+  <section id="contact" class="contact fade-in">
     ¿TIENE ALGUNA DUDA?
     <div class="social-contact">
       <p>Si tiene alguna pregunta puede ponerse en contacto con nuestro equipo de expertos</p>
       <div class="social-icons">
-        <a href="https://api.whatsapp.com/send?phone=34609889685&text=%C2%A1Hola!%20%F0%9F%91%8B%0AGracias%20por%20contactar%20con%20BrandWave.%20%F0%9F%9A%80%0ACu%C3%A9ntame%2C%20%C2%BFc%C3%B3mo%20puedo%20ayudarte%20a%20impulsar%20tu%20cl%C3%ADnica%20de%20medicina%20est%C3%A9tica%3F%20%F0%9F%92%BC%E2%9C%A8" target="_blank">
-          <img src="imagenes/whatsapp-icon.svg" alt="WhatsApp" />
+        <a href="https://api.whatsapp.com/send?phone=34609889685&text=%C2%A1Hola!%20%F0%9F%91%8B%0AGracias%20por%20contactar%20con%20BrandWave.%20%F0%9F%9A%80%0ACu%C3%A9ntame%2C%20%C2%BFc%C3%B3mo%20puedo%20ayudarte%20a%20impulsar%20tu%20cl%C3%ADnica%20de%20medicina%20est%C3%A9tica%3F%20%F0%9F%92%BC%E2%9C%A8"
+          target="_blank" aria-label="Contactar por WhatsApp">
+          <img src="imagenes/whatsapp-icon.svg" alt="Icono de WhatsApp" loading="lazy" />
         </a>
-        <a href="https://www.instagram.com/m/brandwave.agency.smma" target="_blank">
-          <img src="imagenes/instagram-icon.svg" alt="Instagram" />
-        </a>  
-        <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&su=Consulta+sobre+publicidad+y+crecimiento&to=cmeseguergarcia@gmail.com&body=%C2%A1Hola!+%F0%9F%98%8A+Me+encantar%C3%ADa+conocer+m%C3%A1s+sobre+c%C3%B3mo+funciona+vuestra+estrategia+para+conseguir+pacientes+y+qu%C3%A9+tipo+de+campa%C3%B1as+podr%C3%ADais+crear+para+mi+cl%C3%ADnica+est%C3%A9tica+%F0%9F%92%86%E2%80%8D%E2%99%80%EF%B8%8F%E2%9C%A8." target="_blank">
-          <img src="imagenes/gmail-icon.svg" alt="Gmail" />
+        <a href="https://www.instagram.com/m/brandwave.agency.smma" target="_blank"
+          aria-label="Visitar nuestro perfil de Instagram">
+          <img src="imagenes/instagram-icon.svg" alt="Icono de Instagram" loading="lazy" />
+        </a>
+        <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&su=Consulta+sobre+publicidad+y+crecimiento&to=cmeseguergarcia@gmail.com&body=%C2%A1Hola!+%F0%9F%98%8A+Me+encantar%C3%ADa+conocer+m%C3%A1s+sobre+c%C3%B3mo+funciona+vuestra+estrategia+para+conseguir+pacientes+y+qu%C3%A9+tipo+de+campa%C3%B1as+podr%C3%ADais+crear+para+mi+cl%C3%ADnica+est%C3%A9tica+%F0%9F%92%86%E2%80%8D%E2%99%80%EF%B8%8F%E2%9C%A8."
+          target="_blank" aria-label="Enviar correo electrónico vía Gmail">
+          <img src="imagenes/gmail-icon.svg" alt="Icono de Gmail" loading="lazy" />
         </a>
       </div>
     </div>
     <!-- Calendly integrado -->
     <div class="calendly-contact">
       <p>Reserva tu cita directamente :</p>
-      <div class="calendly-inline-widget" data-url="https://calendly.com/brandwaveagency" style="min-width:320px;height:700px;"></div>
+      <div class="calendly-inline-widget" data-url="https://calendly.com/brandwaveagency"
+        style="min-width:320px;height:700px;"></div>
     </div>
     <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
   </section>
 
   <footer>
+    <div class="footer-links">
+      <a href="aviso-legal.html">Aviso Legal</a>
+      <a href="politica-privacidad.html">Política de Privacidad</a>
+      <a href="cookies.html">Política de Cookies</a>
+    </div>
     <p>&copy; 2025 BrandWave. Todos los derechos reservados.</p>
   </footer>
+
+  <!-- Cookie Banner -->
+  <div id="cookieBanner" class="cookie-banner" style="display: none;">
+    <p>Utilizamos cookies propias y de terceros para mejorar nuestros servicios y mostrarle publicidad relacionada con sus preferencias mediante el análisis de sus hábitos de navegación. Si continúa navegando, consideramos que acepta su uso.</p>
+    <div class="cookie-buttons">
+      <button onclick="acceptCookies()" class="btn-accept">Aceptar</button>
+      <a href="cookies.html" class="btn-info">Más información</a>
+    </div>
+  </div>
 
   <script src="imagenes/particles.min.js"></script>
   <script src="script.js"></script>
 </body>
+
 </html>
